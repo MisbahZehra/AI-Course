@@ -1,0 +1,110 @@
+01:  Make 2 Programs on each data type. 
+
+01.  Numeric Types:
+-Int
+
+# Python Integer
+a = 25
+y = -78
+c = 0
+
+print(a) 
+print(y)  
+print(c)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Addition Operation +
+
+addition = 8 + 3
+print("Addition:", addition)
+
+# Subtraction operation -
+subtraction = 9 - 4
+print("Subtraction:", subtraction)
+
+# Multiplication operation *
+multiplication = 10 * 2
+print("Multiplication:", multiplication)
+
+# Division operation /
+division = 10 / 6
+print("Division:", division)
+
+# Integer Division operation //
+integer_division = 10 // 2
+print("Integer Division:", integer_division)
+
+# Modulus operation %
+modulus = 10 % 5
+print("Modulus:", modulus)
+# Exponentiation operation **
+exponentiation = 2 ** 6
+print("Exponentiation:", exponentiation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-Flaot
+
+b = 2.47
+y = -0.1
+k = 5.0
+
+print(b)
+print(y)
+print(k)
+
+ 
+
+
+
+
+Sequence Type:
+
+# List creation
+
+the_list = [1, 2, 4, 5]
+
+# creating a mixed data list
+multiple_data_list = [1, 'hi', 2.57, False]
+print(the_list[0])
+print(multiple_data_list[2])
+# Mutable feature of list
+
+the_list[0] = 10
+the_list.append(9)
+the_list.extend([5, 4])
+the_list.remove(2)
+del the_list[0]
+
