@@ -1,0 +1,62 @@
+ective: To get Familiar with Logical operators and Conditional Structure and Loops
+
+-	Write a Python function to check if a number is even or odd.
+
+
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        return f"{number} is Even"
+    else:
+        return f"{number} is Odd"
+
+
+print(check_even_odd(10))
+print(check_even_odd(7))
+
+OUTPUT
+
+
+
+
+               
+ 
+
+
+-	Write a Python function to find the maximum of three numbers.
+
+
+def find_maximum(a, b, c):
+    if a >= b and a >= c:
+        return f"The maximum number is {a}"
+    elif b >= a and b >= c:
+        return f"The maximum number is {b}"
+    else:
+        return f"The maximum number is {c}"
+
+
+print(find_maximum(10, 20, 30))
+print(find_maximum(50, 20, 30))
+
+OUTPUT
+
+
+        
+
+
+
+
+
+-	Make starred shapes using Loops 
+
+def print_star_triangle(rows):
+    for i in range(1, rows + 1):
+        print("* " * i)
+
+print_star_triangle(5)
+
+
+OUTPUT
+
+
+
